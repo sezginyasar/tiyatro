@@ -154,24 +154,24 @@
             // 
             btn_kamil_acilma_sesi.BackColor = Color.LightGreen;
             btn_kamil_acilma_sesi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_kamil_acilma_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_kamil_acilma_sesi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_kamil_acilma_sesi.ForeColor = Color.Black;
-            btn_kamil_acilma_sesi.Location = new Point(263, 12);
+            btn_kamil_acilma_sesi.Location = new Point(305, 12);
             btn_kamil_acilma_sesi.Name = "btn_kamil_acilma_sesi";
-            btn_kamil_acilma_sesi.Size = new Size(120, 80);
+            btn_kamil_acilma_sesi.Size = new Size(140, 80);
             btn_kamil_acilma_sesi.TabIndex = 16;
-            btn_kamil_acilma_sesi.Text = "1 Kamil Açılma \r\nÇAL";
+            btn_kamil_acilma_sesi.Text = "Kamil Açılma\r\nÇAL";
             btn_kamil_acilma_sesi.UseVisualStyleBackColor = false;
             btn_kamil_acilma_sesi.Click += btn_kamil_acilma_sesi_Click;
             // 
             // btn_giris_muzigi
             // 
             btn_giris_muzigi.BackColor = Color.LightGreen;
-            btn_giris_muzigi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_giris_muzigi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_giris_muzigi.ForeColor = Color.Black;
-            btn_giris_muzigi.Location = new Point(137, 12);
+            btn_giris_muzigi.Location = new Point(158, 12);
             btn_giris_muzigi.Name = "btn_giris_muzigi";
-            btn_giris_muzigi.Size = new Size(120, 80);
+            btn_giris_muzigi.Size = new Size(140, 80);
             btn_giris_muzigi.TabIndex = 15;
             btn_giris_muzigi.Text = "Giriş Müzigi \r\nÇAL";
             btn_giris_muzigi.UseVisualStyleBackColor = false;
@@ -192,12 +192,13 @@
             btn_kamil_dogrulma_sesi.BackgroundImageLayout = ImageLayout.Stretch;
             btn_kamil_dogrulma_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn_kamil_dogrulma_sesi.ForeColor = Color.Black;
-            btn_kamil_dogrulma_sesi.Location = new Point(389, 12);
+            btn_kamil_dogrulma_sesi.Location = new Point(853, 143);
             btn_kamil_dogrulma_sesi.Name = "btn_kamil_dogrulma_sesi";
-            btn_kamil_dogrulma_sesi.Size = new Size(120, 80);
+            btn_kamil_dogrulma_sesi.Size = new Size(34, 35);
             btn_kamil_dogrulma_sesi.TabIndex = 18;
             btn_kamil_dogrulma_sesi.Text = "2 Kamil Dogrulma \r\nÇAL";
             btn_kamil_dogrulma_sesi.UseVisualStyleBackColor = false;
+            btn_kamil_dogrulma_sesi.Visible = false;
             btn_kamil_dogrulma_sesi.Click += btn_kamil_dogrulma_sesi_Click;
             // 
             // btn_3_kamil_kalkarken
@@ -206,12 +207,13 @@
             btn_3_kamil_kalkarken.BackgroundImageLayout = ImageLayout.Stretch;
             btn_3_kamil_kalkarken.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn_3_kamil_kalkarken.ForeColor = Color.Black;
-            btn_3_kamil_kalkarken.Location = new Point(515, 12);
+            btn_3_kamil_kalkarken.Location = new Point(813, 109);
             btn_3_kamil_kalkarken.Name = "btn_3_kamil_kalkarken";
-            btn_3_kamil_kalkarken.Size = new Size(120, 80);
+            btn_3_kamil_kalkarken.Size = new Size(34, 35);
             btn_3_kamil_kalkarken.TabIndex = 19;
             btn_3_kamil_kalkarken.Text = "3 Kamil Kalkarken \r\nÇAL";
             btn_3_kamil_kalkarken.UseVisualStyleBackColor = false;
+            btn_3_kamil_kalkarken.Visible = false;
             btn_3_kamil_kalkarken.Click += btn_3_kamil_kalkarken_Click;
             // 
             // btn_4_kamil_yurumesi
@@ -220,25 +222,26 @@
             btn_4_kamil_yurumesi.BackgroundImageLayout = ImageLayout.Stretch;
             btn_4_kamil_yurumesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn_4_kamil_yurumesi.ForeColor = Color.Black;
-            btn_4_kamil_yurumesi.Location = new Point(641, 12);
+            btn_4_kamil_yurumesi.Location = new Point(853, 109);
             btn_4_kamil_yurumesi.Name = "btn_4_kamil_yurumesi";
-            btn_4_kamil_yurumesi.Size = new Size(120, 80);
+            btn_4_kamil_yurumesi.Size = new Size(34, 35);
             btn_4_kamil_yurumesi.TabIndex = 20;
             btn_4_kamil_yurumesi.Text = "4 Kamil Yürümesi \r\nÇAL";
             btn_4_kamil_yurumesi.UseVisualStyleBackColor = false;
+            btn_4_kamil_yurumesi.Visible = false;
             btn_4_kamil_yurumesi.Click += btn_4_kamil_yurumesi_Click;
             // 
             // btn_5_kamil_dans
             // 
             btn_5_kamil_dans.BackColor = Color.LightGreen;
             btn_5_kamil_dans.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_5_kamil_dans.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_5_kamil_dans.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_5_kamil_dans.ForeColor = Color.Black;
-            btn_5_kamil_dans.Location = new Point(767, 12);
+            btn_5_kamil_dans.Location = new Point(452, 12);
             btn_5_kamil_dans.Name = "btn_5_kamil_dans";
-            btn_5_kamil_dans.Size = new Size(120, 80);
+            btn_5_kamil_dans.Size = new Size(140, 80);
             btn_5_kamil_dans.TabIndex = 21;
-            btn_5_kamil_dans.Text = "5 Kamil Dans \r\nÇAL";
+            btn_5_kamil_dans.Text = "Kamil Dans \r\nÇAL";
             btn_5_kamil_dans.UseVisualStyleBackColor = false;
             btn_5_kamil_dans.Click += btn_5_kamil_dans_Click;
             // 
@@ -246,13 +249,13 @@
             // 
             btn_6_aysel_dans.BackColor = Color.LightGreen;
             btn_6_aysel_dans.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_6_aysel_dans.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_6_aysel_dans.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_6_aysel_dans.ForeColor = Color.Black;
-            btn_6_aysel_dans.Location = new Point(11, 98);
+            btn_6_aysel_dans.Location = new Point(599, 12);
             btn_6_aysel_dans.Name = "btn_6_aysel_dans";
-            btn_6_aysel_dans.Size = new Size(120, 80);
+            btn_6_aysel_dans.Size = new Size(140, 80);
             btn_6_aysel_dans.TabIndex = 22;
-            btn_6_aysel_dans.Text = "6 Aysel Dans \r\nÇAL";
+            btn_6_aysel_dans.Text = "Aysel Dans \r\nÇAL";
             btn_6_aysel_dans.UseVisualStyleBackColor = false;
             btn_6_aysel_dans.Click += btn_6_aysel_dans_Click;
             // 
@@ -260,13 +263,13 @@
             // 
             btn_7_kamil_sarj_sesi.BackColor = Color.LightGreen;
             btn_7_kamil_sarj_sesi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_7_kamil_sarj_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_7_kamil_sarj_sesi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_7_kamil_sarj_sesi.ForeColor = Color.Black;
-            btn_7_kamil_sarj_sesi.Location = new Point(137, 98);
+            btn_7_kamil_sarj_sesi.Location = new Point(746, 12);
             btn_7_kamil_sarj_sesi.Name = "btn_7_kamil_sarj_sesi";
-            btn_7_kamil_sarj_sesi.Size = new Size(120, 80);
+            btn_7_kamil_sarj_sesi.Size = new Size(140, 80);
             btn_7_kamil_sarj_sesi.TabIndex = 23;
-            btn_7_kamil_sarj_sesi.Text = "7 Kamil Şarj \r\nÇAL";
+            btn_7_kamil_sarj_sesi.Text = "Kamil Şarj \r\nÇAL";
             btn_7_kamil_sarj_sesi.UseVisualStyleBackColor = false;
             btn_7_kamil_sarj_sesi.Click += btn_7_kamil_sarj_sesi_Click;
             // 
@@ -274,13 +277,13 @@
             // 
             btn_8_kamil_error_sesi.BackColor = Color.LightGreen;
             btn_8_kamil_error_sesi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_8_kamil_error_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_8_kamil_error_sesi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_8_kamil_error_sesi.ForeColor = Color.Black;
-            btn_8_kamil_error_sesi.Location = new Point(263, 98);
+            btn_8_kamil_error_sesi.Location = new Point(11, 96);
             btn_8_kamil_error_sesi.Name = "btn_8_kamil_error_sesi";
-            btn_8_kamil_error_sesi.Size = new Size(120, 80);
+            btn_8_kamil_error_sesi.Size = new Size(140, 80);
             btn_8_kamil_error_sesi.TabIndex = 24;
-            btn_8_kamil_error_sesi.Text = "8 Kamil Error \r\nÇAL";
+            btn_8_kamil_error_sesi.Text = "Kamil Error \r\nÇAL";
             btn_8_kamil_error_sesi.UseVisualStyleBackColor = false;
             btn_8_kamil_error_sesi.Click += btn_8_kamil_error_sesi_Click;
             // 
@@ -288,11 +291,11 @@
             // 
             btn_kamil_donusum_sesi.BackColor = Color.LightGreen;
             btn_kamil_donusum_sesi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_kamil_donusum_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_kamil_donusum_sesi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_kamil_donusum_sesi.ForeColor = Color.Black;
-            btn_kamil_donusum_sesi.Location = new Point(389, 98);
+            btn_kamil_donusum_sesi.Location = new Point(158, 96);
             btn_kamil_donusum_sesi.Name = "btn_kamil_donusum_sesi";
-            btn_kamil_donusum_sesi.Size = new Size(120, 80);
+            btn_kamil_donusum_sesi.Size = new Size(287, 80);
             btn_kamil_donusum_sesi.TabIndex = 25;
             btn_kamil_donusum_sesi.Text = "Kamil Dönüşüm \r\nÇAL";
             btn_kamil_donusum_sesi.UseVisualStyleBackColor = false;
@@ -302,11 +305,11 @@
             // 
             btn_kredi_karti_okutma_sesi.BackColor = Color.LightGreen;
             btn_kredi_karti_okutma_sesi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_kredi_karti_okutma_sesi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_kredi_karti_okutma_sesi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_kredi_karti_okutma_sesi.ForeColor = Color.Black;
-            btn_kredi_karti_okutma_sesi.Location = new Point(641, 98);
+            btn_kredi_karti_okutma_sesi.Location = new Point(452, 96);
             btn_kredi_karti_okutma_sesi.Name = "btn_kredi_karti_okutma_sesi";
-            btn_kredi_karti_okutma_sesi.Size = new Size(120, 80);
+            btn_kredi_karti_okutma_sesi.Size = new Size(140, 80);
             btn_kredi_karti_okutma_sesi.TabIndex = 26;
             btn_kredi_karti_okutma_sesi.Text = "Kredi Kartı Okutma \r\nÇAL\r\n";
             btn_kredi_karti_okutma_sesi.UseVisualStyleBackColor = false;
@@ -318,23 +321,24 @@
             btn_kredi_karti_tuslama.BackgroundImageLayout = ImageLayout.Stretch;
             btn_kredi_karti_tuslama.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn_kredi_karti_tuslama.ForeColor = Color.Black;
-            btn_kredi_karti_tuslama.Location = new Point(515, 98);
+            btn_kredi_karti_tuslama.Location = new Point(813, 141);
             btn_kredi_karti_tuslama.Name = "btn_kredi_karti_tuslama";
-            btn_kredi_karti_tuslama.Size = new Size(120, 80);
+            btn_kredi_karti_tuslama.Size = new Size(34, 35);
             btn_kredi_karti_tuslama.TabIndex = 27;
             btn_kredi_karti_tuslama.Text = "Kredi Kartı Tuşlama \r\nÇAL";
             btn_kredi_karti_tuslama.UseVisualStyleBackColor = false;
+            btn_kredi_karti_tuslama.Visible = false;
             btn_kredi_karti_tuslama.Click += btn_kredi_karti_tuslama_Click;
             // 
             // btn_oyunumuz_basliyor_muzigi
             // 
             btn_oyunumuz_basliyor_muzigi.BackColor = Color.LightGreen;
             btn_oyunumuz_basliyor_muzigi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_oyunumuz_basliyor_muzigi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_oyunumuz_basliyor_muzigi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_oyunumuz_basliyor_muzigi.ForeColor = Color.Black;
             btn_oyunumuz_basliyor_muzigi.Location = new Point(11, 12);
             btn_oyunumuz_basliyor_muzigi.Name = "btn_oyunumuz_basliyor_muzigi";
-            btn_oyunumuz_basliyor_muzigi.Size = new Size(120, 80);
+            btn_oyunumuz_basliyor_muzigi.Size = new Size(140, 80);
             btn_oyunumuz_basliyor_muzigi.TabIndex = 28;
             btn_oyunumuz_basliyor_muzigi.Text = "Oyunumuz\r\nBaşlıyor \r\nÇAL";
             btn_oyunumuz_basliyor_muzigi.UseVisualStyleBackColor = false;
@@ -358,11 +362,11 @@
             // 
             btn_selamlama_muzigi.BackColor = Color.LightGreen;
             btn_selamlama_muzigi.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_selamlama_muzigi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_selamlama_muzigi.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_selamlama_muzigi.ForeColor = Color.Black;
-            btn_selamlama_muzigi.Location = new Point(767, 98);
+            btn_selamlama_muzigi.Location = new Point(599, 96);
             btn_selamlama_muzigi.Name = "btn_selamlama_muzigi";
-            btn_selamlama_muzigi.Size = new Size(120, 80);
+            btn_selamlama_muzigi.Size = new Size(140, 80);
             btn_selamlama_muzigi.TabIndex = 30;
             btn_selamlama_muzigi.Text = "Selamlama Müzigi \r\nÇAL";
             btn_selamlama_muzigi.UseVisualStyleBackColor = false;
@@ -492,7 +496,6 @@
             Controls.Add(btn_selamlama_muzigi);
             Controls.Add(btn_perde_arasi_giris_cikis_muzigi);
             Controls.Add(btn_oyunumuz_basliyor_muzigi);
-            Controls.Add(btn_kredi_karti_tuslama);
             Controls.Add(btn_kredi_karti_okutma_sesi);
             Controls.Add(btn_kamil_donusum_sesi);
             Controls.Add(btn_8_kamil_error_sesi);
@@ -512,6 +515,7 @@
             Controls.Add(bnt_video_control);
             Controls.Add(btn_emel_sahne);
             Controls.Add(btn_video_from_full_screen);
+            Controls.Add(btn_kredi_karti_tuslama);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;

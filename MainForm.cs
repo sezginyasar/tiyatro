@@ -44,7 +44,7 @@ namespace tiyatro {
             videoForm.axWindowsMediaPlayer1.PlayStateChange += AxWindowsMediaPlayer1_PlayStateChange;
             videoForm.Show();
 
-            videoPauseIntervals = defaultTimeLine;
+            videoPauseIntervals = new List<double>(defaultTimeLine); // Yeni liste oluşturuldu;
         }
 
         private void btn_video_from_full_screen_Click(object sender, EventArgs e) {
@@ -80,7 +80,8 @@ namespace tiyatro {
                         resourceName = null;
                         videoFileName = null;
                         videoForm.StopVideo();
-                        videoPauseIntervals = defaultTimeLine;
+                        videoPauseIntervals = new List<double>(defaultTimeLine); // Yeni liste oluşturuldu;
+                        bnt_video_control.Enabled = true;
                         btn_otomatik_duraklama.Enabled = true;
                     }
                     else
@@ -303,7 +304,7 @@ namespace tiyatro {
                 btn_otomatik_duraklama.Text = "Otomatik Duraklama \r\nKAPALI";
                 btn_otomatik_duraklama.BackColor = Color.LightGreen;
                 otomatikDuraklama = false;
-                videoPauseIntervals = defaultTimeLine;
+                videoPauseIntervals = new List<double>(defaultTimeLine); // Yeni liste oluşturuldu
             }
         }
 
